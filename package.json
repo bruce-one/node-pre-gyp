@@ -21,6 +21,7 @@
   "main": "./lib/node-pre-gyp.js",
   "dependencies": {
     "detect-libc": "^1.0.2",
+    "highland": "^2.13.0",
     "mkdirp": "^0.5.1",
     "needle": "^2.2.0",
     "nopt": "^4.0.1",
@@ -29,7 +30,8 @@
     "rc": "^1.1.7",
     "rimraf": "^2.6.1",
     "semver": "^5.3.0",
-    "tar": "^4"
+    "tar": "^4",
+    "tar-fs": "^1.16.3"
   },
   "devDependencies": {
     "aws-sdk": "^2.28.0",

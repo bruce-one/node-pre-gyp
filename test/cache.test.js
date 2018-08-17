@@ -29,8 +29,8 @@ function install(cmd,opts,callback) {
 }
 
 function on_error(err,stdout,stderr) {
-    msg += '\nstdout: ' + stdout;
-    msg += '\nstderr: ' + stderr;
+    err.message += '\nstdout: ' + stdout;
+    err.message += '\nstderr: ' + stderr;
     throw err;
 }
 
